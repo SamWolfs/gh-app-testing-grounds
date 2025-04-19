@@ -37,7 +37,7 @@ protections:
 
     # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status
     # checks for repository administrators. Set to null to disable.
-    enforce_admins: true
+    enforce_admins: false
 
     # Prevent merge commits from being pushes to matching branches
     required_linear_history: true
@@ -93,12 +93,6 @@ repository:
 
   # The default value for a squash merge commit message. One of PR_BODY, COMMIT_MESSAGES, BLANK
   squash_merge_commit_message: PR_BODY
-
-  # Required when using `merge_commit_message`. One of PR_TITLE, MERGE_MESSAGE
-  merge_commit_title: PR_TITLE
-
-  # The default value for a merge commit message. One of PR_TITLE, PR_BODY, BLANK
-  merge_commit_message: PR_BODY
 
   # Either `true` to allow private forks, or `false` to prevent private forks.
   allow_forking: true
