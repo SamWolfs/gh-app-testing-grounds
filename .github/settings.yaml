@@ -3,6 +3,9 @@ autolinks:
   - key_prefix: PREFIX-
     url_template: 'https://tracking-software.com/browse/PREFIX-<num>'
     is_alphanumeric: true
+  - key_prefix: PREFIX2-
+    url_template: 'https://tracking-software.com/browse/PREFIX2-<num>'
+    is_alphanumeric: true
 
 protections:
   - name: main
