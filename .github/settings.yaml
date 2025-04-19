@@ -93,6 +93,3 @@ repository:
 
   # The default value for a squash merge commit message. One of PR_BODY, COMMIT_MESSAGES, BLANK
   squash_merge_commit_message: PR_BODY
-
-  # Either `true` to allow private forks, or `false` to prevent private forks.
-  allow_forking: true
